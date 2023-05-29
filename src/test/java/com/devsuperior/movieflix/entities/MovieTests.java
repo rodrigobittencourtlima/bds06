@@ -7,7 +7,7 @@ public class MovieTests {
 
 	@Test
 	public void movieShouldHaveCorrectStructure() {
-	
+
 		Movie entity = new Movie();
 		entity.setId(1L);
 		entity.setTitle("Title");
@@ -16,7 +16,7 @@ public class MovieTests {
 		entity.setYear(2021);
 		entity.setImgUrl("https://imgurl.com/img.png");
 		entity.setGenre(new Genre());
-	
+
 		Assertions.assertNotNull(entity.getId());
 		Assertions.assertNotNull(entity.getTitle());
 		Assertions.assertNotNull(entity.getSubTitle());

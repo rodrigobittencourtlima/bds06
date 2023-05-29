@@ -1,4 +1,4 @@
-package com.devsuperior.movieflix.services.exceptions;
+package com.devsuperior.movieflix.exceptions;
 
 public class UnauthorizedException extends RuntimeException {
 
